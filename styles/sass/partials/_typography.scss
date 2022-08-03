@@ -33,24 +33,24 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    @include font-size(28);
+    @include fontSize(28);
 }
 
 h2 {
-    @include font-size(40);
+    @include fontSize(40);
     margin-bottom: 18px;
 }
 
 h3 {
-    @include font-size(54);
+    @include fontSize(54);
 }
 
 h4 {
-    @include font-size (34);
+    @include fontSize (34);
 }
 
 h5 {
-    @include font-size (16);
+    @include fontSize(16);
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
@@ -58,8 +58,8 @@ h5 {
 p {
     line-height: 1.4;
     
-    &.smallCopy {
-        @include font-size(14);
+    & .smallCopy {
+        @include fontSize(14);
         font-weight: bold;
         margin: 0;
     }

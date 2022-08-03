@@ -28,7 +28,7 @@ a {
 
     &.button {
         border: 2px solid $primary;
-        @include font-size(14);
+        @include fontSize(14);
         font-weight: bold;
         padding: 15px 32px;
 
@@ -36,6 +36,18 @@ a {
         &:focus {
             background-color: $primary;
             color: $solidwhite;
+        }
+    }
+
+    &.secondaryButton {
+        background-color: $primary;
+        color: $solidwhite;
+
+
+        &:hover,
+        &:focus {
+            background-color: $solidwhite;
+            color: $primary;
         }
     }
 }
