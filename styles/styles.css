@@ -415,3 +415,32 @@ a.secondaryButton:hover, a.secondaryButton:focus {
 .navbar .logo {
   margin-left: 50px;
 }
+
+.slide-out-nav {
+  background-color: #084b6d;
+  color: #fff;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  padding: 30px 50px;
+  width: 100%;
+  max-width: 450px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.slide-out-nav button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.slide-out-nav a {
+  line-height: 2.2rem;
+}
+.slide-out-nav a:hover, .slide-out-nav a:focus {
+  color: rgba;
+}
