@@ -370,9 +370,9 @@ a.secondaryButton:hover, a.secondaryButton:focus {
   background-color: #fff;
   border-bottom: 2px solid rgba(8, 75, 109, 0.1);
   z-index: 10;
+  padding: 15px 0;
 }
 .navbar .wrapper {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -419,7 +419,7 @@ a.secondaryButton:hover, a.secondaryButton:focus {
 .slide-out-nav {
   background-color: #084b6d;
   color: #fff;
-  min-height: 100vh;
+  min-height: 50vh;
   position: fixed;
   top: 0;
   padding: 30px 50px;
@@ -433,6 +433,8 @@ a.secondaryButton:hover, a.secondaryButton:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 20;
+  left: -450px;
 }
 .slide-out-nav button {
   -ms-flex-item-align: end;
@@ -442,5 +444,5 @@ a.secondaryButton:hover, a.secondaryButton:focus {
   line-height: 2.2rem;
 }
 .slide-out-nav a:hover, .slide-out-nav a:focus {
-  color: rgba;
+  color: rgba(255, 255, 255, 0.6);
 }

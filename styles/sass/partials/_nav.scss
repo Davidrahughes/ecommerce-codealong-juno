@@ -43,7 +43,7 @@
 .slide-out-nav {
     background-color: $primary;
     color: $solidwhite;
-    min-height: 100vh;
+    min-height: 50vh;
     position: fixed;
     top: 0;
     padding: 30px 50px;
@@ -64,7 +64,7 @@
 
         &:hover,
         &:focus {
-            color: rgba($color: $solidwhite, $aplha: 0.6);
+            color: rgba($color: $solidwhite, $alpha: 0.6);
         }
     }
 }
