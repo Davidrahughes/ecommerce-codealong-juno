@@ -1,11 +1,6 @@
 @import "./partials/setup";
-@import url(./partials/_variables.scss);
-@import url(./partials/_typography.scss);
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/typography";
 
 
-// HEADINGS:
-// h1: 28px;
-// h2: 40px;
-// h3: 54px;
-// h4: 34px;
-// h5: 14px;
