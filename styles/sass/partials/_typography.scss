@@ -58,7 +58,7 @@ h5 {
 p {
     line-height: 1.4;
     
-    & .smallCopy {
+    &.small-copy {
         @include fontSize(14);
         font-weight: bold;
         margin: 0;
