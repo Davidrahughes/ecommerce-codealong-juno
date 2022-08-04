@@ -447,6 +447,67 @@ a.secondaryButton:hover, a.secondaryButton:focus {
   color: rgba(255, 255, 255, 0.6);
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f8fbf3;
+}
+header .header-img-container {
+  width: 45%;
+}
+header .header-content-container {
+  width: 55%;
+  padding: 0 90px;
+}
+
+.categories {
+  padding: 90px 0;
+}
+
+.category-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+.category-gallery .item1 {
+  background-color: #ffd698;
+}
+.category-gallery .item2 {
+  background-color: #f4fcff;
+}
+.category-gallery .item3 {
+  background-color: #f8fbf3;
+}
+.category-gallery .item4 {
+  background-color: #fff5f5;
+}
+.category-gallery .item {
+  width: 40%;
+  padding: 40px;
+  border-radius: 10%;
+  margin: 25px 0;
+}
+.category-gallery .item:hover, .category-gallery .item:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.category-gallery .item img {
+  border-radius: 10%;
+  margin-bottom: 15px;
+}
+
 footer {
   background-color: #084b6d;
   color: #fff;
