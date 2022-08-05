@@ -436,6 +436,9 @@ a.secondaryButton:hover, a.secondaryButton:focus {
   z-index: 20;
   left: -450px;
 }
+.slide-out-nav.open {
+  left: 0;
+}
 .slide-out-nav button {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -618,7 +621,7 @@ footer .footer-nav .footer-about {
     width: 100%;
   }
 }
-@media (Max-width: 760px) and (max-width: 500px) {
+@media (max-width: 500px) {
   .navbar .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -628,13 +631,14 @@ footer .footer-nav .footer-about {
   .navbar .logo {
     margin: 7px 0 12px;
   }
-}
-@media (Max-width: 760px) {
+  .slide-out-nav {
+    font-family: "Young Serif";
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
   .play {
     padding: 0;
   }
-}
-@media (Max-width: 760px) {
   footer .footer-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
